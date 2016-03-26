@@ -11,6 +11,10 @@
       <p class="bold">(513) 318-4481</p>
       <p>Or <a href="contact">get in touch online</a></p>
     </div>
+
+    <div class="header-bottom">
+      <p class="small text-center sans padtop">Quality remodeling &amp; construction in the Oxford area since 2005</p>
+    </div>
   </div>
 
   <nav class="site-nav">
@@ -28,11 +32,16 @@
       <div id="drawer" class="dropdown" style="display: none;">
         <div class="drawer-content-wrapper">
           <div class="drawer-content">
-            {% for my_page in site.pages %}
-              {% if my_page.title and my_page.navtype == 'drawer' %}
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              {% endif %}
-            {% endfor %}
+            <img src="/images/basements-thumb.jpg" class="drawer-showcase" id="basements-sc" alt="" />
+            <img src="/images/bathrooms-thumb.jpg" class="drawer-showcase" id="bathrooms-sc" style="display:none;" alt="" />
+            <img src="/images/general-thumb.jpg" class="drawer-showcase" id="general-sc" style="display:none;" alt="" />
+            <img src="/images/kitchens-thumb.jpg" class="drawer-showcase" id="kitchens-sc" style="display:none;" alt="" />
+            <img src="/images/windoors-thumb.jpg" class="drawer-showcase" id="windoors-sc" style="display:none;" alt="" />
+            <a class="drawer-link" id="basements-dl" href="/services/basements">Basements</a><br>
+            <a class="drawer-link" id="bathrooms-dl" href="/services/bathrooms">Bathrooms</a><br>
+            <a class="drawer-link" id="general-dl" href="/services/general">General Renovations</a><br>
+            <a class="drawer-link" id="kitchens-dl" href="/services/kitchens">Kitchens</a><br>
+            <a class="drawer-link" id="windoors-dl" href="/services/windows-doors">Windows &amp; Doors</a><br>
           </div>
         </div>
       </div>
