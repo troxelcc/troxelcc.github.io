@@ -76,6 +76,9 @@ figcaption {
     font-size: $small-font-size;
 }
 
+.float-left { float: left; }
+.float-right { float: right; }
+
 /**
  * Typography
  */
@@ -95,6 +98,9 @@ p+p {
 }
 .small {
     font-size: $small-font-size;
+}
+.sans {
+    font-family: $header-font-family;
 }
 
 /**
