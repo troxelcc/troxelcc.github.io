@@ -57,34 +57,37 @@
         z-index: 2;
 
         a {
-            display: block;
+            display: inline-block;
             padding: 5px 10px;
         }
     }
     #drawer {
         height: 165px;
-        width: 300px;
+        width: 450px;
         box-shadow: -2px 2px 1px 2px rgba(0,0,0,0.1),
                     2px 2px 1px 2px rgba(0,0,0,0.1),
                     0 2px 1px 2px rgba(0,0,0,0.1);
 
-        .page-link {
+        .drawer-link {
             text-shadow: none;
             color: $text-color;
-            }
-
+        }
         .drawer-content-wrapper {
             background-image: url(/images/WoodBG-vert.jpg);
             position: absolute;
             bottom: 0;
-            height: 165px;
-            width: 300px;
+            height: 100%;
+            width: 450px;
         }
         .drawer-content {
             background-color: #f8f8f8;
             height: 160px;
-            width: 290px;
+            width: 440px;
             margin: 0 auto;
+        }
+        .drawer-showcase {
+            float: right;
+            height: 100%;
         }
     }
 
@@ -333,8 +336,6 @@
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts
