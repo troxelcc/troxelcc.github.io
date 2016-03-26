@@ -18,8 +18,11 @@
   {% if page.hasgallery %}<script src="/js/jquery.flexslider-min.js"></script>{% endif %}
   <script>
   $(document).ready(function(){
-    $(".dropdown-toggler").click(function(){
+    $(".dropdown-toggler").click( function(){
       $(this).next(".dropdown").slideToggle(200);
+    });
+    $(".drawer-link").mouseenter( function(){
+      $(".drawer-showcase").hide(); $("#" + $(this).attr("id").split("-")[0] + "-sc" ).show();
     });
   })
   </script>
