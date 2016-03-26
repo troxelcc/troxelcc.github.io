@@ -23,8 +23,21 @@
     </a>
 
     <div class="trigger">
+      <!-- Services -->
+      <a class="page-link dropdown-toggler" data-toggle="dropdown" href="javascript:void(0)">Services <i class="fa fa-chevron-down"></i></a>
+      <div id="drawer" class="dropdown" style="display: none;">
+        <div class="drawer-content-wrapper">
+          <div class="drawer-content">
+            {% for my_page in site.pages %}
+              {% if my_page.title and my_page.navtype == 'drawer' %}
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
       {% for my_page in site.pages %}
-        {% if my_page.title %}
+        {% if my_page.title and my_page.navtype != 'drawer' %}
         <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
         {% endif %}
       {% endfor %}

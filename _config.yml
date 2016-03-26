@@ -15,7 +15,7 @@ street_address_2: "Middletown, OH 45042"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.troxelcc.com" # the base hostname & protocol for your site
 facebook_url: "https://www.facebook.com/pages/Troxel-Custom-Carpentry-Inc/579632255416602"
-github_username:  jekyll
+github_username: troxelcc
 
 # Build settings
 markdown: kramdown

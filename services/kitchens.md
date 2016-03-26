@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Kitchens
-permalink: /kitchens/
+permalink: /services/kitchens
+navtype: drawer
 ---
 <script>
 $(window).load(function() {

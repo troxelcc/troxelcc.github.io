@@ -2,6 +2,7 @@
 layout: page
 title: Testimonials
 permalink: /testimonials/
+navtype: normal
 ---
 
 I made a page. Let's see if this does the thing. 
