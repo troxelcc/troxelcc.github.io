@@ -3,6 +3,7 @@ layout: page
 title: Kitchens
 permalink: /services/kitchens
 navtype: drawer
+hasgallery: true
 ---
 <script>
 $(window).load(function() {
