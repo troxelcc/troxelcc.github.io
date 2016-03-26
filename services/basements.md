@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Basements
-permalink: /services/basements
+permalink: /services/basements/
 navtype: drawer
 ---
 

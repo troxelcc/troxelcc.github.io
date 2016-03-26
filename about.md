@@ -2,7 +2,7 @@
 layout: page
 title: About
 displaytitle: About Troxel Custom Carpentry
-permalink: /about
+permalink: /about/
 navtype: normal
 ---
 

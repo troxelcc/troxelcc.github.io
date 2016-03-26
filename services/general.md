@@ -1,7 +1,7 @@
 ---
 layout: page
 title: General Renovations
-permalink: /services/general
+permalink: /services/general/
 navtype: drawer
 ---
 

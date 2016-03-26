@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kitchens
-permalink: /services/kitchens
+permalink: /services/kitchens/
 navtype: drawer
 hasgallery: true
 ---

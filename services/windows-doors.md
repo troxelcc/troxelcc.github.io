@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Windows & Doors
-permalink: /services/windows-doors
+permalink: /services/windows-doors/
 navtype: drawer
 ---
 Package Control Messages
