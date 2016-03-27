@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{% if page.displaytitle %}{{ page.displaytitle }}{% else %}{{ page.title }}{% endif %}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+
+	<div class="flexslider-container">
+		<div id="mainslider" class="flexslider">
+		  	<ul class="slides">
+				{% for item in page.galleryimages %}
+		    	<li>
+		      		<img src="{{ item.large }}" />
+		      		<p class="flex-caption">{{ item.caption }}</p>
+	    		</li>
+	    		{% endfor %}
+	    	</ul>
+		</div>
+
+		<div id="carousel" class="flexslider">
+			<ul class="slides">
+				{% for item in page.galleryimages %}
+				<li>
+					<img src="{{ item.small }}" />
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+  </div>
+
+</article>
