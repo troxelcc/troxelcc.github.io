@@ -15,6 +15,7 @@ $(window).load(function() {
     animationLoop: true,
     slideshow: false,
     itemWidth: 180,
+    minItems: 3,
     maxItems: 4,
     itemMargin: 5,
     asNavFor: '#mainslider'
