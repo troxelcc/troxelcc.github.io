@@ -5,6 +5,7 @@ permalink: /services/kitchens/
 navtype: drawer
 hasgallery: true
 ---
+We remodel kitchens and bathrooms. But bathrooms are on a different page. They're only mentioned here because I copied that first sentence out of the old website. I could've just deleted "and bathrooms", and that would've been easier than typing all this. But this way you get to see what it'd look like if there were a nice big introductory paragraph about the stuff you can do in kitchens.
 <script>
 $(window).load(function() {
   // The slider being synced must be initialized first
@@ -35,7 +36,7 @@ $(window).load(function() {
   <ul class="slides">
     <li>
       <img src="/images/windoors.jpg" />
-      <p class="flex-caption">These are some windows.</p>
+      <p class="flex-caption">Andersen double-hung windows with transoms in a walk-out bay.</p>
     </li>
     <li>
       <img src="/images/kitchens.jpg" />
