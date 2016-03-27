@@ -3,6 +3,7 @@ layout: gallerypage
 title: Kitchens
 permalink: /services/kitchens/
 navtype: drawer
+hasgallery: true
 galleryimages:
   -
     large: /images/windoors.jpg

@@ -9,13 +9,13 @@
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
-  {% if page.layout == "gallerypage" %}<link rel="stylesheet" href="{{ "/css/flexslider.css" | prepend: site.baseurl }}">{% endif %}
+  {% if page.hasgallery %}<link rel="stylesheet" href="{{ "/css/flexslider.css" | prepend: site.baseurl }}">{% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic' rel='stylesheet' type='text/css'>
   <script src="/js/jquery-1.12.0.min.js"></script>
-  {% if page.layout == "gallerypage" %}
+  {% if page.hasgallery %}
     <script src="/js/jquery.flexslider-min.js"></script>
     <script>
     $(window).load(function() {
