@@ -74,12 +74,13 @@
         }
         .drawer-content-wrapper {
             background-image: url(/images/WoodBG-vert.jpg);
-            position: absolute;
-            bottom: 0;
             height: 100%;
             width: 450px;
         }
         .drawer-content {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
             background-color: #f8f8f8;
             height: 160px;
             width: 440px;
@@ -227,7 +228,6 @@
         }
     }
 }
-
 
 /**
  * Site footer
