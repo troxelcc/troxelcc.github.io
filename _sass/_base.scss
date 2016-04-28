@@ -24,22 +24,25 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    padding: 0 50px;
+    // @include media-query($on-medscrn) {
+    //     width: 800px;
+    // }
+    @include media-query($on-laptop) {
+        padding: 0 25px;
+    }
+    @include media-query($on-palm) {
+        padding: 0;
+    }
 }
 div#main {
     background-color: #fdfdfd;
     width: $content-width;
     max-width: 100%;
     margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
     
-    @include media-query($on-medscrn) {
-        width: 800px;
-    }
-    @include media-query($on-laptop) {
-        width: 700px;
-    }
-    @include media-query($on-palm) {
-        width: 100%;
-    }
 }
 
 
