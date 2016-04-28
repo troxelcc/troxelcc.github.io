@@ -1,8 +1,9 @@
 ---
-layout: gallerypage
 title: Windows & Doors
+layout: gallerypage
 permalink: /services/windows-doors/
 navtype: drawer
+
 hasgallery: true
 galleryimages:
   - 

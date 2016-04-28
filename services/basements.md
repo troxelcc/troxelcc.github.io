@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Basements
+layout: page
 permalink: /services/basements/
 navtype: drawer
 ---
