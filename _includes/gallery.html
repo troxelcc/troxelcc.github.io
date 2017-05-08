@@ -1,0 +1,50 @@
+{% assign piclist = page[include.piclist] %}
+
+<div class="flexslider-container">
+  <div id="{{ include.piclist }}-slider" class="flexslider">
+    <ul class="slides">
+      {% for item in piclist %}
+      <li>
+        <img src="/images/gallery/{{ item.file }}" />
+        {% if item.caption %}
+          <p class="flex-caption">{{ item.caption }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="{{ include.piclist }}-carousel" class="flexslider carousel">
+    <ul class="slides">
+      {% for item in piclist %}
+      <li>
+        <img src="/images/gallery/{{ item.file }}" />
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<script>
+  $(window).load(function() {
+    $('#{{ include.piclist }}-carousel').flexslider({
+      animation: "slide",
+      controlNav: false,
+      animationLoop: true,
+      slideshow: false,
+      itemWidth: 180,
+      minItems: 3,
+      maxItems: 4,
+      itemMargin: 5,
+      asNavFor: '#{{ include.piclist }}-slider'
+    });
+    $('#{{ include.piclist }}-slider').flexslider({
+      animation: "slide",
+      controlNav: false,
+      animationLoop: true,
+      slideshow: false,
+      sync: "#{{ include.piclist }}-carousel",
+      smoothHeight: true
+    });
+  })
+</script>

@@ -1,28 +1,24 @@
 ---
 title: Kitchens
-layout: gallerypage
 permalink: /services/kitchens/
 navtype: drawer
+layout: page
 
-hasgallery: true
-galleryimages:
+piclist1:
   -
-    large: /images/windoors.jpg
-    small: /images/windoors-thumb.jpg
-    caption: >
+    file: windoors.jpg
+    caption: |
       Andersen double-hung windows with transoms in a walk-out bay.
   -
-    large: /images/kitchens.jpg
-    small: /images/kitchens-thumb.jpg
+    file: kitchens.jpg
   -
-    large:   /images/full/benson-kitchen1.jpg
-    small:   /images/thumb/benson-kitchen1.jpg
+    file: benson-kitchen1.jpg
   -
-    large:   /images/full/benson-kitchen2.jpg
-    small:   /images/thumb/benson-kitchen2.jpg
+    file: benson-kitchen2.jpg
   -
-    large:   /images/full/benson-kitchen3.jpg
-    small:   /images/thumb/benson-kitchen3.jpg
+    file: benson-kitchen3.jpg
 ---
 
 We remodel kitchens and bathrooms.
+
+{% include gallery.html piclist="piclist1" %}
