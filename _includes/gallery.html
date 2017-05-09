@@ -18,6 +18,9 @@
     <ul class="slides">
       {% for item in piclist %}
       <li>
+        {% if item.overlay %}
+        <div class="carousel-overlay">{{ item.overlay }}</div>
+        {% endif %}
         <img src="/images/gallery/{{ item.file }}" />
       </li>
       {% endfor %}
