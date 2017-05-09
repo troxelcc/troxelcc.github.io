@@ -6,19 +6,21 @@ layout: page
 
 piclist1:
   -
-    file: windoors.jpg
-    caption: |
-      Andersen double-hung windows with transoms in a walk-out bay.
+    file: kitchens/benson-kitchen1.jpg
   -
-    file: kitchens.jpg
+    file: kitchens/benson-kitchen2.jpg
   -
-    file: benson-kitchen1.jpg
+    file: kitchens/benson-kitchen3.jpg
   -
-    file: benson-kitchen2.jpg
+    file: kitchens/HANSEL KITCHEN BEFORE 1.jpg
+    caption: Before...
+    overlay: Before
   -
-    file: benson-kitchen3.jpg
+    file: kitchens/HANSEL KITCHEN AFTER 3.jpg
+    caption: ...After.
 ---
 
-We remodel kitchens and bathrooms.
+Here are some of the whole-kitchen redesigns we have done in the past. If you
+are interested in remodeling some or all of your kitchen, feel free to [get in touch](/contact) with us to talk about what we can do for you.
 
 {% include gallery.html piclist="piclist1" %}
