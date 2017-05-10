@@ -42,7 +42,7 @@ piclist1:
 
 Besides specific types of remodeling such as window and kitchen replacements, we
 are skilled at general home renovations of all types---including, but not limited
-to, decks, tiling, pools, and woodworking projects such as wardrobes and benches.
+to, decks, tiling, and woodworking projects such as wardrobes and benches.
 Have a look below at some of our past projects, and feel free to [get in
 touch](/contact) to discuss what project we can start for you.
 
